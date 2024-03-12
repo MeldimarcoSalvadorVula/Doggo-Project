@@ -1,0 +1,379 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    
+    margin-left: 40px;
+    margin-top: 40px;
+    color: white;
+    margin-right: 30px;
+    font-weight: 400;
+}
+
+html{
+
+    font-size: 21px;
+   
+
+}
+
+body{
+   
+    /*background-image: url("Nova pasta/pexels-felix-mittermeier-956981.jpg");*/
+    background-color: #0d214f;
+    background-size: cover;
+    transition: background-image 3s;
+    
+  
+}
+
+textarea{
+    width: 800px;;
+    height: 100px;
+}
+th{
+    background-color: blue;
+    color:#fff
+}
+
+td{
+
+    /*text-indent: 20px;*/
+    text-align: left;
+
+}
+
+td#n1, td#n2, td#n3, td#n4{
+
+    /*text-indent: -5px;*/
+    text-align: left;
+    width: 50%;
+}
+
+td#d1{
+    text-align: left;
+}
+
+.despesas{
+
+    /*text-indent: -130px;*/
+    text-align: left;
+    width: 50%;
+
+
+}
+
+.custos{
+   /* text-indent: 20px;*/
+   text-align: left;
+   width: 50%;
+
+
+
+}
+
+td#n5, td#n6, td#n7, td#n8{
+    /*text-indent: 40px;*/
+    text-align: left;
+    width: 50%;
+
+
+}
+
+figure{
+    margin-left: -2px;
+}
+
+/*body:hover{
+    background-image: url("./Nova pasta/bg-desktop.jpg");
+   
+}*/
+
+
+.principal{
+ 
+
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 3px solid #2e2e2e;
+    width: 100%;
+   
+    max-height: 100px;
+    
+    
+
+}
+
+
+
+.container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    
+    margin: 0 auto;
+    padding: 0 2%;
+    
+   
+   /* height: 10vh;
+    justify-content: space-between;
+    
+    top: 0;
+    background-color: white;*/
+}
+
+.menu{
+
+    /*padding-top: 30px;*/
+    display: flex;
+    width: 78%;
+    text-align: right;
+    justify-content: space-between;
+    gap: 10px;
+    
+    
+    /*display: flex;
+    justify-content: space-between;*/
+  
+}
+
+.menu li{
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    padding-bottom: 15px;
+}
+
+.menu a{
+
+    color: black;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+    transition: color 0.5s;
+
+
+}
+
+.logo{
+
+    width: 22%;
+  /* display: flex;
+    justify-content: center;*/
+   
+  
+    
+    
+}
+
+.logo img{
+
+    width: 80px;
+    height: 80px;
+    /*height: 10vh;*/
+    margin-left: -18%;
+}
+
+.logo h2{
+    color: #42A5FF;
+   
+}
+
+.logo{
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+ul, li a{
+
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    cursor:pointer;
+    list-style: none;
+
+}
+
+.menu a:hover{
+
+   color: rgba(0, 0, 255, 0.158);
+
+}
+
+
+
+
+li{
+
+    text-indent: 107px;
+    /*padding: 10px;
+    right: 40px;
+   /* text-indent: 160px;*/
+}
+
+#video{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+    border: 2px solid rgba(0, 0, 0, 0.315);
+   /* backdrop-filter: blur(4px) ;
+    -webkit-backdrop-filter: blur(4px);/*Para o safari renconhecer o embassamento*/
+}
+
+table, th, td{
+
+    border: 1px solid #2e2e2e;
+    border-collapse: collapse;
+    padding: 5px 2px;
+
+}
+
+table{
+    width: 80%;
+}
+
+
+main > h1, table, img, main p {
+
+    margin: 10px 0px;
+}
+
+td{
+
+    background-color: #42A5FF;
+}
+
+.imagine{
+
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagine img{
+
+    border-radius: 170px;
+    width: 50%;
+
+}
+
+.imagine p{
+    width: 50%;
+}
+
+footer{
+    
+    /*background-color: rgba(0, 89, 255, 0.829);*/
+    background-color: #8c0928;
+    border-top: 5px solid brown;
+}
+
+footer .linhaDeAtendimento{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+
+
+.atend div, .endereco div {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white
+
+
+}
+
+.atend h2{
+
+    padding-bottom: 30px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.what{
+    margin-right: 105px;
+}
+
+.tel{
+
+    margin-right: 13px;
+}
+
+.what, .tel, .email{
+
+    gap:10px
+}
+
+.endereco div{
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.endereco{
+
+    color: white;
+}
+
+.redesSocias h4{
+
+    color:#0d214f;
+}
+
+.endereco h2{
+
+  margin-bottom: 45px;
+
+}
+
+.endereco article{
+
+  
+    margin-bottom: 60px;
+
+}
+
+.endereco img{
+
+    margin-bottom: 55px;
+}
+
+.redesSocias{
+
+    margin-top: 30px;
+}
+
+.direitos{
+
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
+}
